@@ -1,0 +1,394 @@
+*{
+    background: #ffffff;
+}
+
+.menu1{ 
+    margin: 0px;
+    padding: 0px;
+}
+.menu{ 
+    margin: 0px;
+    padding: 0px;
+}
+.menu li{
+    display: block;
+    float: left;
+    padding: 15px 50px 50px;
+    font-size: 17px;
+    font-family: 'Tahoma';
+    font-weight: bold;
+    cursor: pointer;
+}
+.Vaccination a{
+    font-size: 30px;
+    color: blue;
+}
+.menu button{
+    border-radius: 10px;
+    height: 50px;
+    background-color: #0783EE;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.virus{
+    display: block;
+    float: left;
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 50%;
+}
+.virus h1{
+    font-size: 80px;
+    font-family: 'Tahoma';
+    color: #0c6480;
+}
+.virus p{
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Tahoma';
+    color: #666666;
+}
+.virus p i{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Tahoma';
+    color: #064a8a;
+}
+.virus img{
+    width: 25px;
+}
+.doctora {
+    display: block;
+    float: right;
+    width: 45%;
+}
+.doctora img{
+    height: 100%;
+    width: 100%;
+}
+
+.dateFecha {
+    display: block;
+    float: right;
+    background: rgba(128, 128, 128, 0.459);
+    margin-top: 50px;
+    position: absolute;
+    bottom: -250px;
+    right: 125px;
+    height: 120px;
+}
+.dateFecha div{
+    display: inline-block;
+    width: 300px;
+    font-size: 40px;
+    font-family: 'Tahoma';
+    background: transparent;
+}
+.dateFecha div label {
+    background: transparent;
+    color: #5f5f5f;
+}
+
+.dateFecha .location{
+    margin-top: 0px;
+    margin-left: 2px;
+    height: 25px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    font-weight: bold;
+    width: 220px;
+}
+
+.dateFecha .tipoVacunas{
+    height: 30px;
+    width: 200px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    font-weight: bold;
+}
+
+.fechaVacuna{
+    height: 50px !important;
+    width: 100px !important;
+    border-style: none !important;    
+}
+
+.enviar button{
+    border-style: none;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #0783EE;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tahoma';
+}
+
+button:hover{
+    background: rgb(18, 209, 18);
+}
+
+.WhyVacuna{
+    display: block;
+    float: left;
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.WhyVacuna p{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Tahoma';
+    color: #666666;
+}
+
+.WhyVacuna h1{
+    font-size: 65px;
+    font-family: 'Tahoma';
+    color: #0c6480;
+    
+}
+
+.options{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0px;
+    width: 95%;
+    background: transparent;
+}
+
+.options div{
+    display: inline-block;
+    width: 275px;
+    font-family: 'Tahoma';
+    background: #ffffff;
+    text-align: justify;
+    margin: 15px;
+    box-shadow: 10px 20px 50px #0c658071;
+    border-radius: 5px;
+}
+
+.options div p{
+    font-size: 12px;
+    font-family: 'Tahoma';
+}
+
+.options div img{
+    width: 35px;
+}
+
+
+.preparations{
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 50%;
+}
+
+.preparations h1{
+    font-size: 65px;
+    font-family: 'Tahoma';
+    color: #0c6480;
+}
+
+.preparations p{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Tahoma';
+    color: #666666;
+}
+
+.optionsVaccine {
+    display: block;
+    float: right;
+    margin-top: 0px;
+    margin-right: 30px;
+    width: 50%;
+    position: relative;
+}
+
+.optionsVaccine .face{
+    width: 100%;
+    height: 70px;
+    transition: 0.5s;
+    
+}
+
+.optionsVaccine .face.face1{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    transform: translateY(35px);
+    
+}
+
+.optionsVaccine .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 30px #0c658071;
+    transform: translateY(-40px);
+}
+
+.optionsVaccine:hover .face.face1{
+    background: #0c6480;
+    transform: translateY(0px);
+}
+
+.optionsVaccine:hover .face.face1 p{
+    background: transparent;
+    transform: translateY(0px);
+}
+.optionsVaccine:hover .face.face1 img{
+    background: transparent;
+    transform: translateY(0px);
+}
+
+.optionsVaccine:hover .face.face2{
+    transform: translateY(0px);
+}
+.optionsVaccine p{
+    font-family: 'Tahoma';
+    font-weight: bold;
+}
+.optionsVaccine img{
+    height: 25px;
+}
+.doctora2{
+    display: block;
+    float: left;
+    width: 43%;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+img{
+    object-fit: cover;
+}
+.doctora2 img{
+    height: 1000px;
+    width: 100%;
+    
+}
+.Emergency{
+    display: block;
+    float: left;
+    margin-left: 30px;
+    width: 45%;
+}
+
+.Emergency h3{
+    font-size: 65px;
+    font-family: 'Tahoma';
+    color: #0c6480;
+}
+
+.Emergency p{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Tahoma';
+    color: #666666;
+}
+
+.doctora3{
+    display: block;
+    float: right;
+    width: 45%;
+    margin-right: 30px;
+    margin-top: 90px;
+}
+
+.doctora3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.callme {
+    display: block;
+    float: left;
+    margin-left: 30px;
+    width: 45%;
+}
+
+.callme div{
+    display: inline-block;
+    width: 260px;
+    font-family: 'Tahoma';
+    background: #ffffff;
+    margin: 15px;
+    box-shadow: 10px 20px 50px #0c658071;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Tahoma';
+    font-weight: bold;
+}
+.callme h4{
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.callme p{
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.callme div:hover{
+    background: #0c658071 ;
+}
+
+.callme button{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #0783EE;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.callme button:hover{
+    width: 175px;
+    height: 50px;
+    background-color: #20ada6;
+}
+
+.callme img{
+    width: 30px;
+    background-color: transparent;
+    margin: 0;
+}
+
+@media (max-width: 768px){
+    .options{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .optionsVaccine{
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
